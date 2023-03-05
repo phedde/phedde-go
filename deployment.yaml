@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: goapp
-        image: 587444469730.dkr.ecr.eu-west-1.amazonaws.com/phedde-repo
+        image: 587444469730.dkr.ecr.eu-west-1.amazonaws.com/phedde-repo:latest
         ports:
         - containerPort: 8080
